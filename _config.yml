@@ -3,15 +3,15 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 胡伟煌 
-subtitle: 个人博客
-author: 胡伟煌
+title: SNACKY / BLOG
+subtitle: 개발 못하는 사람 블로그
+author: snacky
 language:
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://www.huweihuang.com/       # Note: don't forget to modify the CNAME file to your url
+url: http://cliche90.github.io/       # Note: don't forget to modify the CNAME file to your url
 root: /
 #permalink: :year/:month/:day/:title/
 permalink: :category/:title/
@@ -21,8 +21,8 @@ permalink_defaults:
 #Custom Setting Start
 
 # Site settings
-SEOTitle: 胡伟煌 | Blog
-email: e-mail_address
+SEOTitle: SN | Blog
+email: cliche90@naver.com
 description: ""
 keyword: ""
 header-img: /img/header_img/home.jpg
@@ -36,7 +36,7 @@ signature-img: img/signature/BeanTechSign-white.png
 # RSS: false
 # weibo_username:     Demonbaneen
 # zhihu_username:     Demonbane
-github_username:    huweihuang
+github_username:    cliche90
 # twitter_username:   Demonbane_x
 # facebook_username:  xxx
 # linkedin_username:  xxx
@@ -89,16 +89,8 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 ## Friends
 friends: [
     {
-        title: "CSDN Blog 胡伟煌",
-        href: "http://blog.csdn.net/huwh_"
-    },
-    {
-        title: "DockOne 胡伟煌",
-        href: "http://dockone.io/people/胡伟煌"
-    },
-    {
-        title: "阿里云栖社区 胡伟煌",
-        href: "https://yq.aliyun.com/u/huweihuang"
+        title: "[tistory] my blog",
+        href: "http://snacky.tistory.com"
     }
 ]
 
@@ -195,9 +187,9 @@ markdown:
 
 # MeingJS support for Aplayer
 # reference: https://github.com/metowolf/MetingJS & https://github.com/MoePlayer/APlayer
-metingjs: false
-data-id: 2423410161
-data-server: netease  
+metingjs: true
+data-id: 60198
+data-server: netease
 data-type: playlist
 data-fixed: true
   # data-mini:
@@ -205,13 +197,13 @@ data-fixed: true
 
 # Reward
 reward: false
-reward_comment: 赞赏一下
-wechatpay: wechatpay_url
-alipay: alipay_url
+# reward_comment: 赞赏一下
+# wechatpay: wechatpay_url
+# alipay: alipay_url
 
 # Share
 # Reference: https://github.com/overtrue/share.js
-share: true
+share: false
 
 ## Themes: https://hexo.io/themes/
 theme: huweihuang
@@ -226,6 +218,6 @@ sitemap:
 # branch: master
 deploy:
   type: git
-  repository: https://github.com/huweihuang/hexo-theme-huweihuang
-  branch: gh-pages
+  repository: https://github.com/cliche90/cliche90.github.io
+  branch: master
   message: Update CNAME

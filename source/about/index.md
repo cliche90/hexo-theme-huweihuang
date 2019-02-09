@@ -1,38 +1,18 @@
 ---
 layout: "about"
 title: "About"
-date: 2017-10-03 10:48:33
-description: "走在成为极客的路上"
+date: 2019-02-09 12:00:00
+description: "개발 잘하고 싶다"
 header-img: "/img/header_img/about.jpg"
 aplayer: true
 fixed: false
 ---
 
-### 一句话
+### 한마디
 
->Just do it !    (翻译：我只是个搞 IT的！哭笑脸)
+> 컴퓨터는 잘못이 없습니다. 개발자님
 
-### 关于我
+### 연락처
 
->一个莫名其妙的，喜欢敲代码，喜欢研究技术的，表面上高冷、不苟言笑的，
->
->偶尔又嬉皮笑脸，偶尔又特立独行的，双重性格的技术爱好者！
-
-### 兴趣方向
-
-> 容器云（Docker、Kubernetes等）相关生态技术研究。
-
-### 参与社区
-
- > CSDN博客:http://blog.csdn.net/huwh_
- >
- > Github:https://github.com/huweihuang
- >
- > 阿里云栖社区:https://yq.aliyun.com/u/huweihuang
- >
- > DockOne社区:http://dockone.io/people/胡伟煌
-
-### 联系我
-
->Email: huweihuang@foxmail.com
+> Email: cliche90@naver.com
 
