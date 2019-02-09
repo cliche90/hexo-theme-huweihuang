@@ -65,16 +65,32 @@ tags:
 > 좀 더 많은 내용을 알고 싶다면 [stateofjs](https://stateofjs.com/)를 추천드립니다.
 
 ### React.js
+<p align="center">
+    <img src="./react.png" />
+</div>
+
 - Frontend의 병목도 줄이고 싶어서 만들었어!
 
 ### Vue.js
+<p align="center">
+    <img src="./vuejs.png" />
+</div>
+
 - React.js 좋은것 같긴 한데 쓰기 드럽게 불편하지 않아?
 - 그리고 우리는 문서도 다 한글화 해 줌 ㅎㅎ
 
 ### Angular
+<p align="center">
+    <img src="./angular.jpg" />
+</div>
+
 - 데이터를 하나만 가지고 있으면 되지, 화면에 뿌리는거랑 저장하는거랑 왜 따로 씀?
 
 ### GraphQL
+<p align="center">
+    <img src="./graphql.png" />
+</div>
+
 - ㅋㅋㅋㅋ REST API 아직도 씀?
 
  
