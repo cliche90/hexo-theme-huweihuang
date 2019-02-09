@@ -7,67 +7,72 @@ header-img:
 tags:
 ---
 
-# Frontend
-> 사용자와 직접적으로 상호작용하는 부분
+# 결국 **Frontend**란 무엇을 말하는 것일까?
+> 사용자와 직접적으로 상호작용하는 부분 전부를 통틀어 이르는 말
 
- 
-### 너무 빠른 변화 속도
-- 단순 Tool 혹은 framework, library들
-  - React.js
-  - Vue.js
-  - Angular.js
-  - Backbone.js
-  - Ember.js
-  - Redux
-  - GraphQL
-  - Mobx
-  - Vuex
-  - React native
-  - Vue native
-  - Ionic2
-  - Babel
-  - Webpack
-  - Grunt
-  - Gulp
-  - Meteor
-  - Foundation
-  - ....
+# 그렇다면 배우는 데에 어떤 문제가 있을까?
+> **너무 빠른 변화 속도**
 
-- 파생언어들
-  - Sass
-  - Jsx
-  - Typescript
-  - ...
+## 비교적 최근에 나온 프론트엔트 Tool  framework, library들
+- React.js
+- Vue.js
+- Angular.js
+- Backbone.js
+- Ember.js
+- Redux
+- GraphQL
+- Mobx
+- Vuex
+- React native
+- Vue native
+- Ionic2
+- Babel
+- Webpack
+- Grunt
+- Gulp
+- Meteor
+- Foundation
+- ....
 
-- JS의 ES6+ 로의 문법 변화
-  - class
-  - exports / imports
-  - arrow function
-  - ...
+## 프론트엔트 언어(Javascript/html/css)의 파생언어 혹은 파생문법들
+- Sass
+- JSX
+- Typescript
+- ...
 
-> 너무 많은 거 아닌가...
+## JS의 ES6+ 로의 문법 변화
+- class
+- exports / imports
+- arrow function
+- ...
 
 
-### 그래도 선두에서 뛰는 녀석들은 있다.
+> 발전이 빠른게 나쁜건 아니지만 너무 두서없이 나오는 같은데...
 
-#### React.js
+
+# 그래도 선두에서 뛰는 녀석들은 있다.
+> 발전이 빠르다고 한들 사람들이 사랑하는 기술은 언제나 한정된 법입니다.
+>
+> 비교적 최근(2018~2019)에 많은 사랑을 받은 기술들에 대해 개략적으로 소개합니다.
+
+## React.js
 - Backend만 최적화하는 줄 아나, Frontend도 최적화 가능해!
 
-#### Vue.js
+## Vue.js
 - React.js 좋은것 같긴 한데 쓰기 드럽게 불편하지 않아?
 - 그리고 우리는 문서도 다 한글화 해 줌 ㅎㅎ
 
-#### Angular
+## Angular
 - 데이터를 하나만 가지고 있으면 되지, 화면에 뿌리는거랑 저장하는거랑 왜 따로 씀?
 
-#### GraphQL
+## GraphQL
 - ㅋㅋㅋㅋ REST API 아직도 씀?
 
  
 
-### 그럼 선두주자들에 대해 알아보자
+# 그럼 프론트엔드 기술의 선두주자들에 대해 알아보자
 
-#### React.js
+## React.js
 - 브라우저에 내용 수정할때마다 하는 일이 너무 많은데, 그냥 화면만 갈아치우면 안되나?
 - [영상을 봅시다!!!](https://www.youtube.com/watch?v=muc2ZF0QIO4)
 - [2018년에 사랑받은 프레임워크들도 봅시다!!](https://insights.stackoverflow.com/survey/2018/#technology-most-loved-dreaded-and-wanted-frameworks-libraries-and-tools)
@@ -88,7 +93,7 @@ tags:
     - 그래서 나온게 Redux랑 Mobx야!!
     - 쉽게 말하면 모든 컴포넌트들의 선생님이 있는 셈이야! 무언가 변화가 생기면 선생님에게 알려주고, 선생님이 다른 컴포넌트 친구에게 알려줄 일이 생기면 알려주는 식이지!
 
-#### Vue.js
+## Vue.js
 - 역시 대륙 형들답게, React.js의 장점만 가져오고, 사용성을 좀 더 높였어!
 - 대부분의 가이드가 영어로 되어있다 보니, 잘 되어있는 한글문서가 반가운 건 어쩔수 없는 사실
 - 뷰(View) 부분만을 다루는 프레임워크
@@ -96,17 +101,29 @@ tags:
 - React.js와 유사한 기능을 제공하는 데에 비해, React.js와는 달리 코드가 매우 간결한 것이 특징
 - 디렉티브도 있음!! (난 그거 별론데.. 휴... 그래도 Angular보다는 외우기 편하긴 한것 같아, 그냥 `v-`로 시작하는 속성값들은 죄다..)
 
-#### Angular.js
+## Angular.js
 
-#### GraphQL
+## GraphQL
 - Anti-REST 진영의 대표주자
 - 여전히 REST를 완전히 대체하기는 어려워보임
 
 
-### 브라우저 콘솔에서 쳐보면 ES6 문법 잘 안되는 경우도 있던데?
+------------------------------------------------------------------
+
+
+# 브라우저 콘솔에서 쳐보면 ES6+의 문법이 작동하지 경우도 있던데?
 
 > 번들링(Bundling)이 필요하다.
 
 - 번들링?
   - 여러개의 js, jsx, sass, less 등의 파일들을 웹 브라우저가 해석할 수 있는 html, js, css 등으로 된 하나의 파일로 묶어주는 것
   - 그리고 이러한 것을 해주는 과정 속에서 ES6를 사용할 수 있도록 코드 변경도 함께 일어난다.
+
+# 번들링의 대표주자들
+
+## Webpack
+
+## Babel
+
+## Parcel
+- 비교적 신흥강자
